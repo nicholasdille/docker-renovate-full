@@ -63,6 +63,6 @@ RUN install-tool dotnet 3.1.405
 RUN npm install -g lerna
 
 # renovate: datasource=github-releases lookupName=helm/helm
-RUN install-tool helm 3.4.1
+RUN install-tool helm v3.5.1
 
 USER 1000
